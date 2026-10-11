@@ -3,147 +3,189 @@
     src: url(fonts/Roboto/Roboto-VariableFont_wdth,wght.ttf);
 }
 
-.pdf {
-	width: 100%;
-	aspect-ratio: 8.5 / 11;
-}
-
-.title {
-	font-size: 0.5cm;
-	margin-bottom: 0px;
-}
-
-.subtitle {
-	font-size: 20px;
-	padding-top: 0px;
-	margin: 0px;
-	line-height: 0px;
-}
-
-.lightfont {
-	font-weight: 200;
-}
-
-.profileimage {
-	align: center;
-	width: 8cm;
-	border-radius: 10px;
-        float: left;
-        margin-right: 0.8cm;
-        margin-bottom: 0.4cm;
-}
-
-.worktable {
-	width: 100%;
-}
-
-.workimagel {
-	align: center;
-	width: 6cm;
-	border-radius: 10px;
-        float: left;
-        margin-right: 0.8cm;
-        margin-bottom: 0.4cm;
-}
-
-.workimager {
-	align: center;
-	width: 6cm;
-	border-radius: 10px;
-        float: right;
-        margin-right: 0.8cm;
-        margin-bottom: 0.4cm;
-}
-
-.center {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #222;
+    color: #f2f2f2;
+    font-weight: 200;
+    font-size: 1.2rem;
+    margin-bottom: 0.1rem;
+    margin: 0;
+    padding-bottom: 60px;
 }
 
 .viewarea {
-	margin: auto;
-        width: 25cm;
-        background-color: #222;
-	color: #f2f2f2;
+    margin: auto;
+    width: 90%;
+    max-width: 950px;
+    background-color: #222;
 }
 
-.topnav {
-	width: 100%;
-	background-color: #222;
-	overflow: hidden;
-	height: 1cm;
+.title {
+    font-size: 1.3rem;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
-.topnav a.navmenu {
-	float: right;
-	padding: 0px 16px;
+.subtitle {
+    font-size: 1.2rem;
+    padding-top: 0;
+    margin: 0;
+    line-height: 1.2;
 }
 
-.topnav a.navtitle {
-	float: left;
-	font-size: 20pt;
-}
-
-.topnav a {
-	float: right;
-	color: #f2f2f2;
-	text-align: center;
-	text-decoration: none;
-	font-size: 14pt;
-	transition: 0.3s;
-	font-weight: 200;
-	line-height: 1cm; 
-}
-
-.topnav a.navtitle:hover {
-	text-decoration: none;
-}
-
-.topnav a.navmenu:hover {
-	text-decoration: none;
-	color: #FFB000;
-	font-weight: 300;
-}
-
-hr {
-	width:100%;
-	height:1px;
-	background-color: #333;
-	border:none;
-}
-
-body {
-	font-family: Roboto;
-	background-color: #222;
-	font-weight: 200;
-	font-size: 14pt;
+.lightfont {
+    font-weight: 200;
 }
 
 a {
-	transition: 0.3s;
-	color: #FFB000;
-	text-decoration: none;
+    transition: 0.3s;
+    color: #FFB000;
+    text-decoration: none;
 }
-
 
 a:hover {
-	text-decoration: underline;
+    text-decoration: underline;
+}
+
+hr {
+    width: 100%;
+    height: 1px;
+    background-color: #333;
+    border: none;
+}
+
+.navarea {
+    width: 90%;
+    max-width: 950px;
+    height: 2rem;
+    margin: auto;
+    background-color: #222;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0;
+}
+
+.navarea a.navmenu {
+    padding: 0rem 1rem;
+}
+
+.navarea a.navtitle {
+    font-size: 1.5rem;
+}
+
+.navarea a.navtitle:hover {
+    text-decoration: none;
+}
+
+.navarea .navlinks {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    float:right;
 }
 
 
+.navlinks a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 200;
+}
 
+.navtitle a {
+    display: none;
+}
+
+.navlinks a.navmenu:hover {
+    text-decoration: none;
+    color: #FFB000;
+    font-weight: 300;
+}
+
+.profileimage, .workimagel, .workimager {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin: 0 auto 1rem auto;
+}
+
+.signatureimage {
+    width: 20rem;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.worktable {
+    width: 100%;
+}
+
+.pdf {
+    width: 100%;
+    aspect-ratio: 8.5 / 11;
+    height: auto;
+}
+
+/* Footer */
 footer {
-	text-align: center;
-	font-family: Roboto;
-	color: #f2f2f2;
-	background-color: #222;
-	font-weight: 200;
-	font-size: 10pt;
-	position: fixed;
-	left: 0;
-	bottom: 0;
-	height: 1cm;
-	width: 100%;
-	overflow: hidden;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    color: #f2f2f2;
+    background-color: #222;
+    font-weight: 200;
+    font-size: 0.8rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .profileimage {
+        width: 300px;
+        float: left;
+        margin-right: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .workimagel {
+        width: 250px;
+        float: left;
+        margin-right: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .workimager {
+        width: 250px;
+        float: right;
+        margin-left: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .navarea .navlinks {
+        width: 50%;
+        display: flex;
+        gap: 1rem;
+    }
+
+    .navtitle a {
+        display: block;
+        float: left;
+        color: #f2f2f2;
+    }
 }
