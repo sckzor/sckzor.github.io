@@ -4,13 +4,23 @@
 
 	<head>
 		{{ head.html }}
-		<link rel="stylesheet" href="style.css">
 	</head>
 
 	<body>
 		{{ header.html }}
-		{{ portfolio_body.html }}
+		<div class="viewarea">
+			<div class="title">
+				<h1 class="lightfont"> portfolio </h1>
+			</div>
+			<div class="subtitle">
+				<h5 class="lightfont"> a compilation of my projects </h5>
+			</div>
+
+		{{ Portfolio/portfolio_body.html }}
+		</div>
+		
 		{{ footer.html }}
+	
 	</body>
 
 </html>

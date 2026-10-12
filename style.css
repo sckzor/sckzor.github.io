@@ -117,6 +117,25 @@ hr {
     margin: 0 auto 1rem auto;
 }
 
+.projectimage {
+    display: block;
+    /*height: 250px;*/
+    width: 100%;
+    border-radius: 10px;
+    margin: 0 auto 1rem auto;
+}
+
+.projectlink {
+    transition: 0.3s;
+    text-decoration: none;
+    color: #F2F2F2;
+}
+
+.projectlink:hover {
+    text-decoration: none;
+    color: #FFB000;
+}
+
 .signatureimage {
     width: 20rem;
 }
@@ -169,11 +188,19 @@ footer {
         margin-right: 2rem;
         margin-bottom: 1rem;
     }
-
+    
     .workimager {
         width: 250px;
         float: right;
         margin-left: 2rem;
+        margin-bottom: 1rem;
+    }
+    
+    .projectimage {
+        height: 250px;
+	width: auto;
+        float: left;
+        margin-right: 2rem;
         margin-bottom: 1rem;
     }
 
