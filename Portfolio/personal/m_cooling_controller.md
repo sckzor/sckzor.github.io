@@ -1,10 +1,10 @@
-<!--CARD 3D Rendering Engine | July 2022 - September 2022 | /Images/portfolio/3d_engine.webp -->
+<!--CARD 3D Rendering Engine | July 2022 - September 2022 | /Images/portfolio/3d_engine-1400.webp -->
 
 # 3D Rendering Engine
 
 ### July 2022 - September 2022
 
-![3D Rendering Engine](/Images/portfolio/3d_engine.webp)
+![3D Rendering Engine](/Images/portfolio/3d_engine-1400.webp)
 
 In order to learn more about ray tracing and high performance APIs I decided to work on a Vulkan based games engine. It is written in C++, Bash and GLSL. It has almost all the major features needed to support a simple 3D game or simulation. Eventually I would like to use it to create my a 3D application or game but once I finished the engine I became somewhat bored with the project and wanted to move on to other things. Perhaps one day I will return to it and make something like 3D tetris.
 

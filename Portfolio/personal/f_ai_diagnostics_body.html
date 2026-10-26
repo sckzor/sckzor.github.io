@@ -1,0 +1,20 @@
+<!--CARD AI Powertrain Diagnostics | July 2023 - May 2024 | /Images/portfolio/obd-1400.webp -->
+
+<h1>AI Powertrain Diagnostics</h1>
+<h3>July 2023 - May 2024</h3>
+<p><img alt="AI Powertrain Diagnostics" src="/Images/portfolio/obd-1400.webp" /></p>
+<p>Following the failure of the fuel pump wiring in my dad's car I wanted to see what I could do to make cars more reliable. To that end, I purchased a 2.4L 2012 Chevrolet Malibu with engine and frontend damage of the from a local car insurance auction for $700. After fixing the front end of the car and repairing the engine, I began reverse engineering all of the onboard CAN sensor communications. I took all of the generated sensor data, and placed it into an AI which was trained, based on synthetic failures, on the current operating state of the vehicle. I developed two OBD II devices, one based on the Raspberry Pi and the other based on the ESP32 to implement my AI and monitor the vehicle status. This system worked well and it was able to notice certain failures (such as a failing head gasket) before I did. I continuted to drive the vehicle every day for nearly six months, gathering more data and improving the AI training. I submitted the project for multiple awards and ended up winning the following:</p>
+<ul>
+<li>Toyota - Research and Development Innovation and Mobility Award</li>
+<li>Northville STEAM Fair - First Place Overall</li>
+<li>United States Office of Naval Research - Naval Science Award</li>
+</ul>
+<p>Below is a photo of the inside of the vehicle, with the diagnostic terminal and emergency stop I installed for debugging.</p>
+<p><img alt="Malibu" src="/Images/portfolio/malibu-1400.webp" /></p>
+<p>Here are the two different diagnostic boards I built.</p>
+<p><img alt="Old OBD II" src="/Images/portfolio/obd_old-1400.webp" />
+<br>
+<img alt="Raspberry Pi Diagnosis" src="/Images/portfolio/raspi_diag-1400.webp" /></p>
+<p>I also was able to control the engine speed of the car programatically with this system. I used it to develop some rudimentary "self driving" functionality, just for fun.</p>
+<p>I built this project as part of my high school's engineering capstone course.</p>
+<p>I applied for and was awarded a provisional patent on certain aspects of the design. After careful consideration, I chose to not persue commercialization of this project for a variety of reasons.</p>
